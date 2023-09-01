@@ -93,7 +93,6 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    /* background-clip: content-box; */
   }
 
   .mountain {
