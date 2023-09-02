@@ -39,29 +39,44 @@
       <tbody>
         {#each countryData as country}
           <tr class="bg-white border-b">
-            <th
-              scope="row"
-              class="px-6 py-4 font-medium text-black-100 whitespace-nowrap dark:text-white"
-            >
-              <img src={country.flags.png} alt="Flag" width="20" />
-            </th>
             <td class="px-6 py-4">
-              {country.name.common}
+              {#if country}
+                <img src={country.flags.png} alt="Flag" width="20" />
+              {/if}
             </td>
             <td class="px-6 py-4">
-              {country.population}
+              {#if country}
+                {country.name.common}
+              {/if}
             </td>
             <td class="px-6 py-4">
-              {country.cioc}
+              {#if country}
+                {country.population}
+              {/if}
             </td>
             <td class="px-6 py-4">
-              {country.status}
+              {#if country}
+                {country.cioc}
+              {/if}
             </td>
             <td class="px-6 py-4">
-              {Object.keys(country.currencies).join(", ")}
+              {#if country}
+                {country.status}
+              {/if}
             </td>
             <td class="px-6 py-4">
-              {Object.values(country.languages).join(", ")}
+              {#if country && country.currencies}
+                {Object.keys(country.currencies).join(", ")}
+              {:else}
+                N/A
+              {/if}
+            </td>
+            <td class="px-6 py-4">
+              {#if country && country.languages}
+                {Object.values(country.languages).join(", ")}
+              {:else}
+                N/A
+              {/if}
             </td>
           </tr>
         {/each}

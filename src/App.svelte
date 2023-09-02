@@ -1,6 +1,7 @@
 <script>
   import Layout from "./lib/Layout.svelte";
   import CountryTable from "./lib/chartPage/CountryTable.svelte";
+  import PolarAreaChart from "./lib/chartPage/PolarAreaChart.svelte";
 </script>
 
 <main>
@@ -9,7 +10,9 @@
     <div class="w-1/2">
       <CountryTable />
     </div>
-    <div class="w-1/2 pl-4">Polar Area Chart</div>
+    <div class="w-1/2 pl-4">
+      <PolarAreaChart />
+    </div>
   </div>
 </main>
 
