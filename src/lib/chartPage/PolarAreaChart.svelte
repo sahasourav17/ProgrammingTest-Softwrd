@@ -13,10 +13,10 @@
   });
 
   const data = {
-    labels: countryData.map((country) => country.name.common || "NA"),
+    labels: countryData.map((country) => country.name.common),
     datasets: [
       {
-        data: countryData.map((country) => country.population || 0),
+        data: countryData.map((country) => country.population),
         backgroundColor: [
           "#FF5733",
           "#2ECC71",
