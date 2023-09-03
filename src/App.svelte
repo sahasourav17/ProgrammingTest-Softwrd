@@ -1,19 +1,14 @@
 <script>
+  import { Route, Router } from "svelte-routing";
   import Layout from "./lib/Layout.svelte";
-  import CountryTable from "./lib/chartPage/CountryTable.svelte";
-  import PolarAreaChart from "./lib/chartPage/PolarAreaChart.svelte";
+  import ChartPage from "./lib/chartPage/ChartPage.svelte";
 </script>
 
 <main>
-  <Layout />
-  <div class="p-4 flex flex-auto">
-    <div class="w-1/2">
-      <CountryTable />
-    </div>
-    <div class="w-1/2 pl-4">
-      <PolarAreaChart />
-    </div>
-  </div>
+  <Router>
+    <Route path="/" component={Layout} />
+    <Route path="/chartpage" component={ChartPage} />
+  </Router>
 </main>
 
 <style>
