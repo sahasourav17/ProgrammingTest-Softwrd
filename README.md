@@ -4,7 +4,53 @@ This is my first time working with `Svelte`, and I'm excited to learn and build 
 
 ### [Link to the problem](https://drive.google.com/file/d/1aFR2PzUDbYM47G25w9funyiSkUl0deXm/view?usp=sharing)
 
-## Routes:
+## Project Setup
+
+- Clone this repository
+- Run `npm install` [Make sure you have node installed on your machine]
+- Then run `npm run dev` to start the project on localhost.
+
+## Project Structure
+
+```bash
+.
+├── figures
+│   ├── chartpage.png
+│   ├── layoutpage.png
+│   └── mappage1.png
+├── index.html
+├── jsconfig.json
+├── netlify.toml
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── app.css
+│   ├── App.svelte
+│   ├── assets
+│   │   └── svelte.svg
+│   ├── lib
+│   │   ├── Counter.svelte
+│   │   ├── CountryTable.svelte
+│   │   └── PolarAreaChart.svelte
+│   ├── main.js
+│   ├── routes
+│   │   ├── ChartPage.svelte
+│   │   ├── Layout.svelte
+│   │   └── MapPage.svelte
+│   ├── stores
+│   │   └── countryDataStore.js
+│   └── vite-env.d.ts
+├── svelte.config.js
+├── tailwind.config.js
+└── vite.config.js
+
+```
+
+## Routes
 
 [Layout Page](https://softwrd-programming-test.netlify.app/) : `https://softwrd-programming-test.netlify.app/`
 
@@ -12,19 +58,19 @@ This is my first time working with `Svelte`, and I'm excited to learn and build 
 
 [Map Page](https://softwrd-programming-test.netlify.app/map-page) : `https://softwrd-programming-test.netlify.app/map-page`
 
-## Layout Page:
+## Layout Page
 
 ![](./figures/layoutpage.png)
 
-## Chart Page:
+## Chart Page
 
 ![](./figures/chartpage.png)
 
-## Map Page:
+## Map Page
 
-![](./figures/mappage.png)
+![](./figures/mappage1.png)
 
-## Issues:
+## Issues
 
 [Layout Page]
 
