@@ -4,11 +4,11 @@ This is my first time working with `Svelte`, and I'm excited to learn and build 
 
 ## Routes:
 
-`/` : Layout Page
+[Layout Page](https://softwrd-programming-test.netlify.app/) : `https://softwrd-programming-test.netlify.app/`
 
-`/chartpage` : Chart Page
+[Chart Page](https://softwrd-programming-test.netlify.app/chartpage) : `https://softwrd-programming-test.netlify.app/chartpage`
 
-`/map-page`: Map Page
+[Map Page](https://softwrd-programming-test.netlify.app/map-page) : `https://softwrd-programming-test.netlify.app/map-page`
 
 ## Layout Page:
 
