@@ -2,7 +2,7 @@
   import { Route, Router } from "svelte-routing";
   import Layout from "./lib/Layout.svelte";
   import MapPage from "./lib/MapPage.svelte";
-  import ChartPage from "./lib/chartPage/ChartPage.svelte";
+  import ChartPage from "./lib/ChartPage.svelte";
 </script>
 
 <main>
