@@ -1,6 +1,6 @@
 <script>
-  import CountryTable from "./CountryTable.svelte";
-  import PolarAreaChart from "./PolarAreaChart.svelte";
+  import CountryTable from "../lib/CountryTable.svelte";
+  import PolarAreaChart from "../lib/PolarAreaChart.svelte";
 </script>
 
 <div class="p-4 flex flex-auto">
