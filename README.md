@@ -2,6 +2,8 @@
 
 This is my first time working with `Svelte`, and I'm excited to learn and build with it. Please be aware that my code may not strictly follow all best practices, and there is a possibility of mistakes as I'm still learning. I'm open to feedback and suggestions from you. So,if you see something that could be improved or if you have any tips, please feel free to share your thoughts.Your feedback is greatly appreciated.
 
+### [Link to the problem](https://drive.google.com/file/d/1aFR2PzUDbYM47G25w9funyiSkUl0deXm/view?usp=sharing)
+
 ## Routes:
 
 [Layout Page](https://softwrd-programming-test.netlify.app/) : `https://softwrd-programming-test.netlify.app/`
