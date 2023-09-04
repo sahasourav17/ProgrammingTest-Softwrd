@@ -1,5 +1,3 @@
-<!-- OpenLayersMap.svelte -->
-
 <script>
   import { onMount } from "svelte";
   import { Map, View } from "ol";
@@ -36,19 +34,15 @@
     });
     const vectorLayer = new VectorLayer({
       source: vectorSource,
-      style: function (feature, res) {
-        if (feature.get("name") == "Bangladesh") {
-          return new Style({
-            stroke: new Stroke({
-              color: "#006a4e",
-              width: 2,
-            }),
-            fill: new Fill({
-              color: "rgba(0, 106, 78, 0.75)",
-            }),
-          });
-        }
-      },
+      style: new Style({
+        stroke: new Stroke({
+          color: "#006a4e",
+          width: 2,
+        }),
+        fill: new Fill({
+          color: "rgba(0, 106, 78, 0.75)",
+        }),
+      }),
     });
 
     map.addLayer(vectorLayer);
